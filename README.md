@@ -4,6 +4,8 @@
 
 **Live product:** [coachonurai.com](https://www.coachonurai.com/)
 
+**Native mobile rewrite in progress:** [ai-coach-native](https://github.com/kapucuonur/ai-coach-native) — React Native (Expo) port of the frontend, same backend.
+
 **This is a documentation-only repository.** CoachOnur AI is closed-source, production software with paying subscribers, built and run by me end-to-end. The source isn't published here because it's a commercial product. This repo is an architecture write-up for recruiters and other engineers, no source code, credentials, or user data is included.
 
 ---
@@ -73,6 +75,7 @@ Advice: Skip today's intervals. 30min Zone 1 spin or full rest.
 ## Stack
 
 **Frontend:** React + Vite, TailwindCSS, i18next (8 languages)
+**Native (in progress):** React Native (Expo), TypeScript, NativeWind
 **Backend:** FastAPI (Python), SQLAlchemy, PostgreSQL
 **AI:** Google Gemini (coaching reasoning + nutrition vision)
 **Integrations:** Garmin Connect (OAuth2), Stripe (subscriptions + webhooks), Telegram Bot API
